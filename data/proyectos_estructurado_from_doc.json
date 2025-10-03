@@ -1,0 +1,491 @@
+{
+  "objetivo": "Establecer los lineamientos de formulación, presentación, evaluación, ejecución, seguimiento y cierre de proyectos de Ciencia, Tecnología e Innovación en la Universidad Mariana, mediante convocatoria interna institucional.",
+  "alcance": "Este procedimiento aplica a los proyectos de Ciencia, Tecnología e Innovación presentados por profesores de la Universidad Mariana en el marco de la convocatoria interna institucional. Empieza con la planeación de la agenda del conocimiento y la apertura de la convocatoria, hasta la recepción y verificación del cumplimiento de requisitos a las propuestas presentadas; la evaluación por parte de pares académicos, la viabilidad por parte del Consejo de Facultad correspondiente y la obtención del aval del Comité de Ética institucional. Se realiza la codificación de los proyectos aprobados e ingreso a la fase ejecución y seguimiento, de acuerdo a los lineamientos institucionales. Para finalizar, el procedimiento contempla la verificación del cumplimiento de los productos y compromisos establecidos y la correspondiente formalización del cierre técnico y financiero.",
+  "definiciones": [
+    {
+      "term": "Agenda de conocimiento",
+      "descripcion": "documento que orienta las apuestas institucionales de investigación para abordar los retos de la sociedad, el ambiente y la economía. Estas apuestas están enlazadas con los procesos misionales, que orientan el desarrollo de programas y proyectos articulados y encaminados a la generación y aplicación de conocimiento."
+    },
+    {
+      "term": "Proyecto de Ciencia, tecnología e innovación",
+      "descripcion": "proceso planificado, estructurado y temporal que busca generar, aplicar o transferir conocimiento científico y tecnológico, con el fin de resolver problemas, responder a necesidades específicas o aportar al desarrollo social, económico, ambiental o cultural."
+    },
+    {
+      "term": "Proyecto de investigación científica básica",
+      "descripcion": "es un trabajo teórico o fundamental con el que se busca la obtención de nuevos conocimientos sobre un fenómeno o hecho observable, sin necesidad de aplicación o utilización. Tiene como propósito ampliar los campos de conocimiento y su utilidad."
+    },
+    {
+      "term": "Proyecto de investigación científica aplicada",
+      "descripcion": "comprende la adquisición de nuevos conocimientos a través de la investigación activa o empírica y busca el logro de un objetivo práctico específico. Se puede entender como el uso de los resultados de la investigación científica básica."
+    },
+    {
+      "term": "Proyecto de desarrollo experimental",
+      "descripcion": "busca la fabricación de nuevos materiales, productos, prototipos, procedimientos, sistemas, servicios o su mejora, a través de un trabajo sistemático fundamentado en conocimientos existentes obtenidos por la investigación o experiencia práctica. El proyecto de desarrollo experimental posibilita soluciones teóricas a un problema, pero no reúne las condiciones necesarias para el desarrollo de un prototipo."
+    },
+    {
+      "term": "Proyecto de desarrollo tecnológico",
+      "descripcion": "es la aplicación de los resultados de la investigación o de cualquier otro tipo de conocimiento científico, para la fabricación o mejora tecnológica de nuevos productos, materiales, procesos o diseño de sistemas de producción o prestación de servicios. Incluye la materialización de los resultados de la investigación en un plano, esquema o diseño, así como la creación de prototipos no comercializables o proyectos piloto, siempre que no se conviertan o utilicen en aplicaciones industriales o para su explotación comercial."
+    },
+    {
+      "term": "Proyecto de innovación",
+      "descripcion": "comprende la introducción al uso de un producto, bien o servicio, de un proceso nuevo o significativamente mejorado o la introducción de un método de comercialización o de organización nuevo aplicado a las prácticas de negocio, a la organización del trabajo o a las relaciones externas. Se divide en proyectos de innovación en producto-servicio, innovación en proceso, e innovación organizacional."
+    },
+    {
+      "term": "Proyecto de innovación social",
+      "descripcion": "es un proyecto centrado en la superación de violencias estructurales a través de un proceso innovador de carácter social en diálogo permanente con las características del territorio, la cultura y la identidad. A través del proyecto se procura la transformación social a partir de la satisfacción de necesidades sociales, el empoderamiento ciudadano, la innovación de políticas públicas y nuevos modelos de relacionamiento y colaboración."
+    },
+    {
+      "term": "Proyecto de apropiación social del conocimiento",
+      "descripcion": "proceso intencionado, participativo y sistemático orientado a generar diálogo e intercambio de saberes y conocimientos entre la comunidad científica, los sectores productivos, las instituciones y la sociedad en general, con el fin de promover la comprensión, el uso y la valoración del conocimiento."
+    },
+    {
+      "term": "Proyecto de creación artística y cultural",
+      "descripcion": "son aquellos estudios enfocados al análisis de las fenomenologías presentes en distintos contextos socioculturales y artísticos. Incluye también estudios encaminados a entender situaciones clave que giran en torno a la representación del Otro (etnicidad, identidad, género, clases, subalternidad y otras representaciones socioculturales) y que también se ven reflejadas en la creación entendida desde sus múltiples manifestaciones, que contribuyen al acervo cultural y a la identidad territorial."
+    },
+    {
+      "term": "Convocatoria interna Institucional",
+      "descripcion": "mecanismo para la gestión académica y administrativa, mediante la cual la Universidad Mariana, apertura un proceso interno y competitivo para la postulación, selección y financiamiento de proyectos de Ciencia, Tecnología e Innovación, enmarcados en la agenda de conocimiento."
+    },
+    {
+      "term": "Ficha de la convocatoria",
+      "descripcion": "formato digital estandarizado dispuesto en el sistema SIGIIP, que incorpora la información esencial o términos de referencia de la convocatoria interna de proyectos."
+    },
+    {
+      "term": "Viabilidad de postulación",
+      "descripcion": "documento expedido por el Comité de Investigaciones del Programa que avala la postulación del proyecto en la convocatoria interna de proyectos."
+    },
+    {
+      "term": "Comité de investigaciones del programa",
+      "descripcion": "Es el comité consultivo sobre la gestión de la investigación en el programa académico; presidido y convocado por el director del programa, que tiene como propósito velar por el cumplimiento de los objetivos del Sistema de Investigación, Desarrollo, Innovación y Creación Artística y Cultural."
+    },
+    {
+      "term": "Consejo de Facultad",
+      "descripcion": "órgano colegiado de gobierno que tiene a su cargo la dirección inmediata de las Facultades."
+    },
+    {
+      "term": "Comité de ética, bioética e integridad científica",
+      "descripcion": "Es un organismo consultivo y evaluador de carácter plural y multidisciplinar, adscrito a la Dirección de Investigación e Innovación, cuyo objeto es velar y garantizar el cumplimiento de los aspectos éticos, bioéticos y de integridad en la actividad científica desarrollada en la Universidad Mariana, relacionados con la seguridad e integridad de los seres humanos, animales y especies biológicas no humanas o aquellos que sean sometidos a su consideración."
+    },
+    {
+      "term": "Aval ético",
+      "descripcion": "autorización formal emitida por el comité de ética, bioética e integridad científica, mediante la cual se deja constancia que la formulación y ejecución del proyecto cumplen con los principios éticos, normativos y legales que garantizan el respeto a la dignidad humana, los derechos de los participantes, la biodiversidad y la integridad científica."
+    },
+    {
+      "term": "Estado del proyecto",
+      "descripcion": "situación actual en la que se encuentra un proyecto en un momento determinado, con respecto a su planificación, ejecución y cumplimiento de objetivos. Los estados definidos en el Sistema de Investigación e Innovación son: activo, suspendido, finalizado y cerrado."
+    },
+    {
+      "term": "Proyecto Activo",
+      "descripcion": "Es el proyecto aprobado en el Sistema de Investigación, que cuenta con una fecha de inicio y es registrado por la Dirección de Investigación e Innovación en SIGIIP."
+    },
+    {
+      "term": "Proyecto suspendido",
+      "descripcion": "Es el proyecto que cuenta con una fecha de inicio, pero que, a partir de la solicitud justificada del investigador principal o director del programa y aprobada por el Consejo de Facultad, previo concepto del CIPRO y la Dirección de Investigación e Innovación, se suspende y no se realizan actividades del proyecto, tampoco se asignan horas de dedicación a los investigadores."
+    },
+    {
+      "term": "Informe al corte",
+      "descripcion": "es un documento de seguimiento y control que presenta, en una fecha determinada, el estado de avance de un proyecto, frente a lo planificado. Se realiza a través de SIGIIP."
+    },
+    {
+      "term": "Proyecto finalizado",
+      "descripcion": "Es el proyecto que ha culminado el proceso investigativo y cuenta con un informe técnico final entregado a través del Sistema SIGIIP; se encuentra en etapa de producción. La Dirección de Investigación e Innovación expide constancia de finalización; en circunstancias especiales, se emite con observaciones o con incumplimiento."
+    },
+    {
+      "term": "Informe final",
+      "descripcion": "es el documento técnico que presenta de manera sistemática y detallada los resultados alcanzados al culminar un proyecto, en relación con los objetivos, productos y compromisos planteados en su formulación. Se realiza a través de SIGIIP."
+    },
+    {
+      "term": "Productos del proyecto",
+      "descripcion": "son los resultados tangibles e intangibles que se adecuan a la tipología prevista en el modelo de medición de grupos e investigadores vigente en Colombia, generados a partir de la ejecución de un proyecto y que evidencian el cumplimiento de sus objetivos y compromisos."
+    },
+    {
+      "term": "Cierre del proyecto",
+      "descripcion": "Fase del proyecto que ha alcanzado los resultados esperados y productos exigidos y que cuenta con acta de cierre a satisfacción. La Dirección de Investigación e Innovación expide constancia de cierre y actualiza el estado en SIGIIP; en circunstancias especiales, se emite con observaciones o con incumplimiento."
+    },
+    {
+      "term": "Investigador principal",
+      "descripcion": "es el profesor de tiempo completo, adscrito a un grupo de investigación, desarrollo tecnológico e innovación; es el responsable de la gestión, ejecución y supervisión de los componentes técnico, científico y financiero del proyecto financiado o cofinanciado por la Universidad Mariana, quien cuenta con asignación de horas para esta labor, acorde con los parámetros que se fijan institucionalmente en los planes de trabajo profesoral desde la Vicerrectoría Académica."
+    },
+    {
+      "term": "Coinvestigador",
+      "descripcion": "un coinvestigador puede ser interno o externo. El coinvestigador interno es el profesor o profesional de la Universidad Mariana que apoya las actividades del proyecto de investigación en los componentes técnico, científico y académico. El coinvestigador externo es la persona natural que se vincula a un proyecto con una dedicación específica bajo la figura de “contrapartida en especie”, debidamente avalada por la institución que lo vincula."
+    },
+    {
+      "term": "Acta de inicio",
+      "descripcion": "documento que certifica el inicio de la ejecución de un proyecto de ciencia, tecnología e innovación, de acuerdo con lo establecido en su formulación, plan de trabajo y productos previamente aprobados."
+    },
+    {
+      "term": "Acta de cierre",
+      "descripcion": "documento que certifica la finalización de la ejecución de un proyecto y deja constancia de su cumplimiento en relación con los objetivos, actividades, resultados y compromisos previamente establecidos."
+    },
+    {
+      "term": "Sistema de información y gestión de proyectos",
+      "descripcion": "la solución del Sistema Integrado de Gestión de Investigaciones, Indicadores y Proyectos SIGIIP, es un software para la gestión de investigaciones, mediante la incorporación de tecnologías maduras que, acopladas a los procesos académicos y/o administrativos, aportan a la generación de valor y competitividad en ciencia, tecnología e innovación."
+    },
+    {
+      "term": "Líder de investigación del programa",
+      "descripcion": "Es un profesor investigador, encargado de motivar, fomentar y acompañar los procesos de investigación del programa en articulación con el director de programa, líder de semilleros y líder investigación de la facultad, debe pertenecer al programa académico, tener una vinculación profesoral de tiempo completo y con asignación de horas para esta labor, acorde con los parámetros que se fijan institucionalmente en los planes de trabajo profesoral desde la Vicerrectoría Académica."
+    },
+    {
+      "term": "Líder de investigación de la facultad",
+      "descripcion": "Es un profesor investigador adscrito a la facultad, encargado de motivar, fomentar y acompañar los procesos de investigación de la facultad en articulación con los líderes de investigación, los directores de programa y el decano, con vinculación profesoral de tiempo completo y con asignación de horas para esta labor, acorde con los parámetros que se fijan institucionalmente en los planes de trabajo profesoral desde la Vicerrectoría Académica."
+    },
+    {
+      "term": "CvLAC",
+      "descripcion": "Aplicativo donde se registran las hojas de vida de las personas que participan en actividades de ciencia, tecnología e innovación. Estas personas pueden ser reconocidas como investigadores si cumplen requisitos o si se encuentran tipificadas como integrantes de un grupo de investigación, desarrollo tecnológico, e innovación."
+    },
+    {
+      "term": "GrupLAC",
+      "descripcion": "Aplicativo en línea para el diligenciamiento y actualización de la información de los grupos de investigación, desarrollo tecnológico, e innovación. La información aportada es responsabilidad de los directores o líderes de los Grupos de Investigación."
+    }
+  ],
+  "condiciones_generales": [
+    "La gestión de proyectos mediante convocatoria interna institucional se rige por lo dispuesto en el Reglamento de Investigación, Desarrollo, Innovación y Creación Artística y Cultural de la Universidad Mariana, así como por la ficha de la convocatoria.",
+    "La convocatoria interna institucional se emite con una periodicidad definida por la Dirección de Investigación e Innovación en concordancia con la planeación estratégica institucional y la agenda de conocimiento vigente.",
+    "Podrán participar profesores con vinculación activa a la Universidad Mariana, que cumplan con los requisitos establecidos en el reglamento de investigación e innovación de la Universidad Mariana, en la ficha de la convocatoria, y que cuenten con la viabilidad del Comité de Investigaciones de su programa.",
+    "Este Comité de Investigaciones del Programa (CIPRO) en la actividad de viabilidad de postulación del proyecto revisa la concordancia disciplinar del proyecto, la asignación de horas del profesor para el proyecto, el presupuesto comprometido y la proyección de la producción.",
+    "El procedimiento aplica exclusivamente a proyectos de Ciencia, Tecnología e Innovación, que estén orientados a la generación de nuevo conocimiento, desarrollo tecnológico, innovación social o apropiación social del conocimiento y formación de recurso humano.",
+    "La asignación de recursos institucionales está sujeta a la disponibilidad presupuestal de los programas académicos definida para cada convocatoria.",
+    "El investigador principal no podrá liderar más de un proyecto; sin embargo, podrá participar como coinvestigador en un segundo proyecto. En casos extraordinarios en los que se requiera su participación como coinvestigador en un proyecto adicional, su vinculación estará sujeta al análisis de viabilidad realizado por el Comité Institucional de Investigación,previa solicitud avalada por el Comité de Investigación del programa.",
+    "En el caso de proyectos interdisciplinarios que articulan a dos o más programas de una o más facultades, su aprobación deberá tramitarse en la facultad a la que pertenece el investigador principal. Para ello, se deberán adjuntar como soportes documentales, las cartas de aval de participación debidamente firmadas por los directores de los programas participantes.",
+    "Todos los proyectos postulados serán sometidos a evaluación por pares académicos externos o internos, en lo referente a criterios técnicos, éticos y de pertinencia científica, definidos por la Dirección de Investigación e Innovación.",
+    "Los proyectos deben estar orientados a la generación de productos contemplados en el modelo de medición de grupos e investigadores vigente en Colombia. Como mínimo, el proyecto debe contemplar la siguiente proyección de productos: a) 2 productos de nuevo conocimiento o desarrollo tecnológico, tipo Top, tipo A o Tipo B. Uno de los dos (2) productos debe ser Tipo Top o Tipo A; b) 1 producto de formación de recurso humano, tipo A o tipo B; c) 1 producto de apropiación social del conocimiento (proceso de apropiación social); d) 2 productos de divulgación pública de la ciencia. Si la metodología del proyecto no permite el desarrollo de un proceso de apropiación social del conocimiento, deberá contemplar, como mínimo, tres productos de divulgación pública de la ciencia.",
+    "En el caso de los proyectos de apropiación social del conocimiento en respuesta al modelo institucional de apropiación social del conocimiento, la proyección mínima de productos será la siguiente: a) 1 experiencia comunitaria; b) 3 productos de divulgación pública de la ciencia, de los cuales uno debe corresponder a una producción bibliográfica divulgativa de la experiencia. Los otros dos deben establecer estrategias de divulgación pública de la ciencia. c) 1 producto de apropiación social del conocimiento (proceso de apropiación social).",
+    "La ejecución de los proyectos está condicionada a la aprobación del Consejo de Facultad a la que pertenezca el investigador principal y al aval del Comité de Ética, Bioética e Integridad Científica Institucional, según el tipo y alcance del proyecto",
+    "Los proyectos aprobados serán registrados, codificados y gestionados a través del sistema de información y gestión de proyectos SIGIIP habilitado para el seguimiento técnico y financiero.",
+    "Los documentos impresos necesarios para el registro y codificación del proyecto son: a) acta de inicio debidamente firmada, b) ficha de presupuesto debidamente firmada, c) constancia comité de ética, d) Copia de la ficha de sesión de Consejo de Facultad, e) declaración y cesión de derechos por investigador debidamente firmada, f) consentimiento o asentimiento informado sellado.",
+    "La Dirección de Investigación e Innovación liderará el seguimiento del cumplimiento de cronogramas, productos y compromisos en articulación con el director y líder de investigación del programa, conforme al acta de inicio. El seguimiento se realizará de forma semestral.",
+    "La no firma del acta de inicio inhabilita el inicio del proyecto.",
+    "La fecha de inicio del proyecto será el primer día del semestre académico según aplique.",
+    "Por una única vez, se podrá realizar una prórroga del proyecto por un máximo de seis (6) meses. La solicitud de prórroga debe realizarse por escrito con mínimo dos (2) meses de antelación a la finalización del proyecto. Por ningún motivo se realizarán prórrogas de proyectos finalizados. Para su aprobación deberá diligenciar la solicitud de prórroga en el formato establecido, presentarla al CIPRO para su viabilidad y solicitar su aprobación en el Consejo de Facultad que aprobó el proyecto. Asimismo, el investigador principal, deberá registrar la solicitud de prórroga en el Sistema SIGIIP, cuyo aval se realizará por la Dirección de Investigación e Innovación, una vez la facultad le comunique la aprobación de la prórroga.",
+    "Toda modificación a un aspecto técnico o presupuestal del proyecto deberá aprobarse en el Consejo de Facultad que aprobó su ejecución y este órgano de gobierno comunicará la novedad a la Dirección de Investigación e Innovación quien aperturará el sistema para efectuar el cambio aprobado.",
+    "El cierre del proyecto estará sujeto a la entrega y validación de los productos proyectados o comprometidos e informes al corte a través del sistema de información SIGIIP, así como a la expedición y firma del acta de cierre correspondiente."
+  ],
+  "procedimiento": [
+    {
+      "numero": "",
+      "actividad": "Planear o actualizar la agenda institucional de conocimiento para la transformación sociocultural Comité Institucional e Investigación e Innovación Agenda de conocimiento",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Definir y registrar los términos de referencia de la convocatoria interna institucional, anexos y su cronograma en el Sistema de información SIGIIP. Director de Investigación e Innovación Ficha de la convocatoria",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Divulgar la convocatoria en canales institucionales de información y en el sistema de información SiGIIP Director de Investigación e Innovación Evidencia de divulgación",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Presentar ideas de proyectos en plenaria convocada por cada facultad Profesor Decano Líder de investigación de facultad Acta y listado de asistencia",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Viabilizar la postulación del proyecto por parte de CIPRO. *En el caso de proyectos que involucren a profesores de varios programas académicos, esta viabilidad se debe agotar en cada CIPRO. Comité de Investigaciones del Programa Documento viabilidad de postulación 6.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Postular el proyecto en el sistema de información Sigiip en el tiempo establecido en la convocatoria Profesor Ficha de Proyecto Relación de proyectos postulados en SIGIIP 7.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Verificar en los proyectos postulados el cumplimiento de los requisitos de la convocatoria *Si el proyecto no requiere subsanación continua a la actividad 11 Director de Investigación e Innovación Comunicado 1 fase de verificación de requisitos 8.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Modificar el estado del proyecto en la convocatoria Director de Investigación e Innovación Traza estados del proyecto en la convocatoria 9.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Subsanar proyectos a través de la plataforma Sigiip Profesor Ficha de proyecto subsanado 10.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Verificar ajustes realizados Director de Investigación e Innovación Comunicado 2 fase de verificación de requisitos 11.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Remitir el proyecto a pares evaluadores Director de Investigación e Innovación Correo generado desde notificaciones SIGIIP 12.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Modificar el estado del proyecto en la convocatoria Director de Investigación e Innovación Traza estados del proyecto en la convocatoria 13.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Evaluar el componente técnico del proyecto a través de Sigiip *Si el proyecto no obtiene una calificación igual o superior a la mínima establecida en la ficha de la convocatoria, el procedimiento termina. Par evaluador Ficha de resultados de evaluación 14.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Ajustar el proyecto según requerimientos de pares. Profesor Ficha de proyecto ajustado 15.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Informar ajustes realizados Investigadores Oficio 16.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Validar ajustes realizados Líder de investigación del programa Correo electrónico 17.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Organizar y convocar al Consejo de Facultad e invitados Decano Secretario de Facultad Líder de investigación de la Facultad Citación y agenda del consejo 18.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Modificar el estado del proyecto en la convocatoria Director de Investigación e Innovación Traza estados del proyecto en la convocatoria 19.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Socializar el proyecto ante el Consejo de Facultad Profesor Presentación en point 20.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Revisar el proyecto *Si proyecto no requiere ajustes continua a la actividad 21 Consejo de Facultad Ficha de la sesión 21.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Informar ajustes realizados Profesor Oficio 22.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Validar ajustes realizados Consejo de Facultad Ficha de la sesión 23.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Emitir aprobación del proyecto Consejo de Facultad Ficha de la sesión 24.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Revisar éticamente el proyecto Comité de Ética, bioetica e integridad científica institucional Ficha de la sesión Ficha de resultados de evaluación 25.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Modificar el estado del proyecto en la convocatoria Director de Investigación e Innovación Traza estados del proyecto en la convocatoria 26.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Comunicar resultados del Comité Director de Investigación e Innovación Comunicado resultados Comité 27.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Revisar observaciones y ajustar protocolo ético del proyecto Profesor Ficha de proyecto ajustado 28.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Informar ajustes realizados Profesor Oficio 29.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Emitir aval ético Comité Institucional de Ética, Bioética e Integridad Científica Constancia 30.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Remitir documentación a Dirección de Investigación e Innovación Secretario de Facultad Cesión de derechos Manifestación de interés y compromiso institucional Viabilidad de postulación CIPRO 31.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Verificar documentación e información del proyecto en Sigiip, actualizar estado en la convocatoria y codificar el proyecto. Director de Investigación e Innovación Correo Traza estados del proyecto en la convocatoria 32.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Generar acta de inicio y ficha de presupuesto Director de Investigación e Innovación Acta de inicio Ficha de presupuesto 33.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Firmar acta de inicio y ficha de presupuesto Profesor Director de programa Decano Director de Investigación e Innovación Acta de inicio Ficha de presupuesto 34.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Ejecutar técnica y presupuestalmente el proyecto Profesores Registro de avance de actividades y de desarrollo de productos con soportes en el Sistema Sigiip 35.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Avalar el avance generado de actividades y productos a través de la plataforma Sigiip líder de investigación del programa Reporte de avance avalado o rechazado 36.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Presentar informe al corte (semestral) en las fechas establecidas por la Dirección de Investigación e Innovación Profesores Ficha de informe al corte 37.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Avalar el informe al corte *Nota de rechazo Directores de Programa Reporte de aval o rechazo 38.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Ajustar el informe al corte Investigadores Ficha de informe al corte ajustado 39.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Finalizar el cronograma del proyecto Profesores 100% porcentaje de avance avalado 40.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Presentar finalización del proyecto y avance de productos proyectados ante Consejo de Facultad Profesores Presentación point 41.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Emitir comunicación de finalización a profesores y Dirección de Investigación e Innovación Consejo de Facultad Oficio de comunicación 42.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Modificar el estado del proyecto en la convocatoria Director de Investigación e Innovación Traza estados del proyecto en la convocatoria 43.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Desarrollar y culminar producción pendiente Investigadores Desarrollo de productos con soportes en Sistema Sigiip 44.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Validar y avalar productos desarrollados a través del sistema de información Sigiip Líder de investigación del programa Reporte de productos avalados 45.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Validar registro de productos desarrollados en CvLac y su vinculación al GrupLac del grupo Director de Investigación e Innovación Constancia 46.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Presentar cierre del proyecto ante Consejo de Facultad Investigadores Presentación point 47.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Emitir comunicación de aprobación de cierre a profesores y Dirección de Investigación e Innovación cierre del proyecto Consejo de Facultad Oficio de comunicación 48.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Generar acta de cierre del proyecto Director de Investigación e Innovación Acta de cierre 49.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Firmar acta de cierre del proyecto Profesor Director de Programa Decano Director de Investigación e Innovación Acta de cierre 50.",
+      "responsable": "",
+      "producto": ""
+    },
+    {
+      "numero": "",
+      "actividad": "Actualizar el estado del proyecto en la convocatoria Director de Investigación e Innovación Traza estados del proyecto en la convocatoria",
+      "responsable": "",
+      "producto": ""
+    }
+  ],
+  "anexos": [
+    "URL SIGIIP: https://sigiip.umariana.edu.co/",
+    "Formato viabilidad de postulación de proyecto",
+    "Formato declaración y cesión de derechos",
+    "Manifestación de Interés y Compromiso Institucional",
+    "Oficio de comunicación de novedad proyecto",
+    "Presentación Point socialización de proyecto en Consejo",
+    "Presentación Point finalización del proyecto",
+    "Presentación Point cierre del proyecto",
+    "Formato solicitud de prórroga",
+    "Videos tutoriales solución SIGIIP: https://www.umariana.edu.co/direccion-investigaciones/#conoce-sigiip",
+    "CONTROL DE CAMBIOS Y APROBACIÓN DE DOCUMENTOS",
+    "Versión",
+    "Fecha",
+    "Cambios",
+    "Elaboró / Modificó",
+    "Revisó",
+    "Aprobó",
+    "Documento nuevo.",
+    "Aseguramiento de la Calidad y Mejora",
+    "Asesor ACME",
+    "Direccionamiento estratégico",
+    "https://sigiip.umariana.edu.co/",
+    "https://www.umariana.edu.co/direccion-investigaciones/#conoce-sigiip"
+  ]
+}
