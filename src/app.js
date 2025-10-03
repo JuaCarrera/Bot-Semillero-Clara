@@ -142,8 +142,8 @@ const proyectosFlow = addKeyword(['proyecto', 'convocatoria'])
 // ================== Saludo inicial con Clara el búho ==================
 const welcomeFlow = addKeyword(['hola', 'buenas', 'hi', 'hello'])
   .addAnswer(
-    `🦉 Hola, soy *Clara el búho*, tu guía en investigaciones de la Universidad Mariana.`,
-    { media: join(process.cwd(), 'assets', 'clara_logo.png') } // aquí pones tu logo en assets
+    `🦉 Hola, soy *Clara*, tu guía en investigaciones de la Universidad Mariana.`,
+    { media: join(process.cwd(), 'assets', 'clara_logo.jpeg') } // aquí pones tu logo en assets
   )
   .addAnswer(
     [
