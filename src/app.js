@@ -7,7 +7,7 @@ import { BaileysProvider as Provider } from '@builderbot/provider-baileys'
 const PORT = process.env.PORT ?? 3008
 
 // ================== Cargar JSON con toda la info ==================
-const data = JSON.parse(fs.readFileSync ('./data/proyectos_estructurado_from_doc.json', 'utf8'))
+const data = JSON.parse(fs.readFileSync('./data/proyectos_estructurado_from_doc.json', 'utf8'))
 
 // ================== Flujos inteligentes ==================
 
@@ -16,6 +16,7 @@ const searchFlow = addKeyword(['pregunta', 'buscar', 'consulta'])
   .addAnswer('🔎 Escribe tu pregunta sobre gestión de proyectos:', { capture: true },
     async (ctx, { flowDynamic }) => {
       const q = ctx.body.toLowerCase()
+      console.log(`🟢 [SEARCH] Usuario: ${ctx.from} → Pregunta: "${q}"`)
 
       // Armar índice de búsqueda
       const docs = []
@@ -52,13 +53,16 @@ const searchFlow = addKeyword(['pregunta', 'buscar', 'consulta'])
       }
 
       if (!results.length) {
+        console.log(`❌ [SEARCH] Sin resultados para: "${q}"`)
         await flowDynamic('❌ No encontré nada relacionado. Intenta con otras palabras más simples.')
         return
       }
 
       // Responder máximo 3 coincidencias
       const top = results.slice(0, 3)
+      console.log(`✅ [SEARCH] ${top.length} resultados encontrados para "${q}"`)
       for (const r of top) {
+        console.log(`   → ${r.cat}: ${r.text.substring(0, 60)}...`)
         await flowDynamic(`📌 *${r.cat}*\n${r.text}`)
       }
     }
@@ -75,9 +79,11 @@ const definicionFlow = addKeyword(['definicion', 'definición'])
       const q = ctx.body.toLowerCase().trim()
       const hit = data.definiciones.find(d => d.term.toLowerCase().includes(q))
       if (hit) {
+        console.log(`✅ [DEFINICION] Usuario: ${ctx.from} → término encontrado: "${hit.term}"`)
         await flowDynamic(`*${hit.term}:* ${hit.descripcion}`)
         return
       }
+      console.log(`❌ [DEFINICION] Usuario: ${ctx.from} → término no encontrado: "${q}"`)
       await flowDynamic('❌ No encontré ese término.')
     }
   )
@@ -92,9 +98,11 @@ const procedimientoFlow = addKeyword('paso')
       const n = ctx.body.trim()
       const hit = data.procedimiento.find(p => String(p.No) === n || String(p.No).replace('.', '') === n)
       if (!hit) {
+        console.log(`❌ [PASO] Usuario: ${ctx.from} → Paso no encontrado: "${n}"`)
         await flowDynamic('❌ No encontré ese paso. Prueba entre 1 y 50.')
         return
       }
+      console.log(`✅ [PASO] Usuario: ${ctx.from} → Paso ${hit.No}`)
       await flowDynamic(
         `*Paso ${hit.No}*\n📌 Actividad: ${hit.Actividad}\n👤 Responsable: ${hit.Responsable || '—'}\n📄 Producto: ${hit.Producto || '—'}`
       )
@@ -110,14 +118,17 @@ const registroFlow = addKeyword(['registro', 'registrar'])
   .addAnswer('📝 Para comenzar necesito algunos datos.\n¿Cuál es tu *nombre*?', { capture: true },
     async (ctx, { state }) => {
       await state.update({ nombre: ctx.body })
+      console.log(`🟢 [REGISTRO] Nombre capturado: ${ctx.body}`)
     }
   )
   .addAnswer('¿De qué *programa académico* eres?', { capture: true },
     async (ctx, { state }) => {
       await state.update({ programa: ctx.body })
+      console.log(`🟢 [REGISTRO] Programa capturado: ${ctx.body}`)
     }
   )
   .addAction(async (_, { flowDynamic, state }) => {
+    console.log(`✅ [REGISTRO COMPLETO] Nombre: ${state.get('nombre')}, Programa: ${state.get('programa')}`)
     await flowDynamic(
       `✅ Registro completado.\n👤 Nombre: ${state.get('nombre')}\n🏫 Programa: ${state.get('programa')}`
     )
@@ -180,11 +191,13 @@ const main = async () => {
     '/v1/messages',
     handleCtx(async (bot, req, res) => {
       const { number, message, urlMedia } = req.body
+      console.log(`📩 [API MESSAGE] → ${number}: "${message}"`)
       await bot.sendMessage(number, message, { media: urlMedia ?? null })
       return res.end('sended')
     })
   )
 
+  console.log(`🚀 Bot corriendo en el puerto ${PORT}`)
   httpServer(+PORT)
 }
 
